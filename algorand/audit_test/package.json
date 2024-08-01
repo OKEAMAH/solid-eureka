@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "algosdk": "^1.13.1",
+    "algosdk": "^2.8.0",
     "varint": "^6.0.0",
     "web3-utils": "^1.7.5"
   },
