@@ -26,4 +26,4 @@ thiserror = "1"
 
 [dev-dependencies]
 anyhow = { version = "1", features = ["backtrace"] }
-serde-json-wasm = "0.4"
+serde-json-wasm = "0.5"

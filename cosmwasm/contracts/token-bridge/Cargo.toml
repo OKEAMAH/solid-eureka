@@ -33,4 +33,4 @@ hex = "0.4.2"
 
 [dev-dependencies]
 terraswap = "2.6.1"
-serde-json-wasm = "0.4"
+serde-json-wasm = "0.5"

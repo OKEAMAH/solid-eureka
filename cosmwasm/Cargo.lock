@@ -14,7 +14,7 @@ dependencies = [
  "hex",
  "schemars",
  "serde",
- "serde-json-wasm 0.4.1",
+ "serde-json-wasm",
  "thiserror",
 ]
 
@@ -284,7 +284,7 @@ dependencies = [
  "hex",
  "schemars",
  "serde",
- "serde-json-wasm 0.5.1",
+ "serde-json-wasm",
  "sha2 0.10.6",
  "thiserror",
  "uint",
@@ -628,7 +628,7 @@ dependencies = [
  "cosmwasm-std",
  "hex",
  "serde",
- "serde-json-wasm 0.4.1",
+ "serde-json-wasm",
  "serde_bytes",
  "thiserror",
 ]
@@ -946,7 +946,7 @@ dependencies = [
  "hex",
  "schemars",
  "serde",
- "serde-json-wasm 0.4.1",
+ "serde-json-wasm",
  "serde_wormhole",
  "thiserror",
  "tinyvec",
@@ -1034,7 +1034,7 @@ dependencies = [
  "hex",
  "prost 0.11.9",
  "serde",
- "serde-json-wasm 0.5.1",
+ "serde-json-wasm",
  "serde_wormhole",
  "token-bridge-cosmwasm",
  "wormhole-bindings",
@@ -1278,7 +1278,7 @@ dependencies = [
  "ntt-messages",
  "schemars",
  "serde",
- "serde-json-wasm 0.4.1",
+ "serde-json-wasm",
  "serde_wormhole",
  "thiserror",
  "tinyvec",
@@ -1702,18 +1702,9 @@ dependencies = [
 
 [[package]]
 name = "serde-json-wasm"
-version = "0.4.1"
+version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "479b4dbc401ca13ee8ce902851b834893251404c4f3c65370a49e047a6be09a5"
-dependencies = [
- "serde",
-]
-
-[[package]]
-name = "serde-json-wasm"
-version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "16a62a1fad1e1828b24acac8f2b468971dade7b8c3c2e672bcadefefb1f8c137"
+checksum = "9e9213a07d53faa0b8dd81e767a54a8188a242fdb9be99ab75ec576a774bfdd7"
 dependencies = [
  "serde",
 ]
@@ -1984,7 +1975,7 @@ dependencies = [
  "hex",
  "schemars",
  "serde",
- "serde-json-wasm 0.4.1",
+ "serde-json-wasm",
  "sha3 0.9.1",
  "terraswap",
  "thiserror",
